@@ -3,21 +3,22 @@ body {
   width: 100%;
   margin: 0;
   margin-top: 0;
-  background-color: #120e09;
-  color: #f7f6df;
+  background-color: #0d0d0e;
+  color: #0d0d0e;
 }
+
 html {
   height: 100%;
   width: 100%;
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Exo 2';
     padding: 30px;
     margin: auto;
     list-style: none;
     font-weight: bold;
     text-align: center;
-    background-color: #22211d;
+    background-color: #0d0d0e;
 }
 nav ul li, footer ul li {
     display: inline;
@@ -31,23 +32,36 @@ a:hover {
     text-decoration: underline;
 }
 
-div header {
-  height: 500px;
-  width: 100%;
-  background-image: url("../assets/images/header_img.jpg");
-  background-position: center;
-  background-size: 100%;
-  color: #fff;
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #161616;
+  font-family: 'Sans Serif', cursive;
+}
+.ctrL, .ctrR {
+  background-color: transparent;
+  color: #161616;
+  border: 2px solid #0d0d0e;
+  padding: 15px 32px;
   text-align: center;
-  margin: 0;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  font-family: 'Exo 2'
 }
 
-.heading {
+.ctrL:hover, .ctrR:hover {
+  background-color: #0d0d0e;
+  color: #dc8f87;
 }
 
 h1 {
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'Exo 2', sans-serif;
 }
 p {
     font-size: 1.5em;
@@ -58,6 +72,7 @@ footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
     text-align: center;
+    background-color: #0d0d0e;
 }
 
 ul.posts {
