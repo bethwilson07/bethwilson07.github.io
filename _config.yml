@@ -2,3 +2,5 @@ name: Beth Wilson, Full Stack Web Developer
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 theme:
+
+theme: jekyll-theme-midnight
