@@ -7,7 +7,7 @@
     	{% seo %}
 		</head>
 		<body>
-			<title>{{ page.title }}</title>
+			<!-- <title>{{ page.title }}</title> -->
 			<nav>
 	    		<ul>
 	        		<li><a href="/">Home</a></li>
@@ -16,6 +16,7 @@
 	        		<li><a href="/blog">Blog</a></li>
 	    		</ul>
 			</nav>
+			{% include header.html %}
 			<div class="container">
 
 			{{ content }}
