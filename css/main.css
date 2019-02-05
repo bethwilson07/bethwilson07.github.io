@@ -20,8 +20,9 @@ a:hover {
     text-decoration: underline;
 }
 
-header {
-  height: 700px;
+header div {
+  height: 500px;
+  width: 100%;
   background-image: url("../assets/images/header_img.jpg");
   background-position: center;
   background-size: cover;
