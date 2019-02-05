@@ -22,7 +22,7 @@ a:hover {
 
 header {
   height: 700px;
-  background-image: url("./images/header_img.jpg");
+  background-image: url("../assets/images/header_img.jpg");
   background-position: center;
   background-size: cover;
 }
