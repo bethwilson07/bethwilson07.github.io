@@ -3,7 +3,7 @@ body {
   width: 100%;
   margin: 0;
   margin-top: 0;
-  background-color: #0d0d0e;
+  background-color: #101110;
   color: #0d0d0e;
 }
 
@@ -43,6 +43,7 @@ a:hover {
   color: #161616;
   font-family: 'Sans Serif', cursive;
 }
+
 .ctrL, .ctrR {
   background-color: transparent;
   color: #161616;
@@ -62,6 +63,30 @@ a:hover {
   color: #dc8f87;
 }
 
+.portfolio {
+  background-color: transparent;
+  color: #b6c7bf;
+  border: 2px solid #b6c7bf;
+  padding: 15px 32px;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  font-family: 'Exo 2';
+  display:block;
+  margin:0 auto;
+}
+.portfolio:hover {
+  background-color: #b6c7bf;
+  color: #0d0d0e;
+}
+#wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 h1 {
     font-size: 3em;
     font-family: 'Exo 2', sans-serif;
@@ -69,7 +94,6 @@ h1 {
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #333;
 }
 footer {
     border-top: 1px solid #d5d5d5;
