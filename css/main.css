@@ -87,6 +87,70 @@ a:hover {
   justify-content: center;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 1em;
+}
+
+.project-listing {
+  position: relative;
+  overflow: hidden;
+}
+
+.project-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 74, 90, 0.4);
+
+  /* typographic styles */
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+
+  /* position the text centrally*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* hide the title by default */
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.project-image {
+  line-height: 0;
+}
+
+.project-listing:hover .project-title {
+  opacity: 1;
+  z-index: 1;
+}
+
+.project-image img {
+  filter: blur(0px);
+  transition: filter 0.3s ease-in;
+  transform: scale(1.1);
+}
+
+.project-listing:hover .project-image img {
+  filter: blur(2px);
+}
+
+/* for touch screen devices */
+@media (hover: none) {
+  .location-title {
+    opacity: 1;
+  }
+  .location-image img {
+    filter: blur(2px);
+  }
+}
+
 h1 {
     font-size: 3em;
     font-family: 'Exo 2', sans-serif;
