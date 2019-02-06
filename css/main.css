@@ -3,7 +3,7 @@ body {
   width: 100%;
   margin: 0;
   margin-top: 0;
-  background-color: #101110;
+  background-color: #14191f;
   color: #0d0d0e;
 }
 
@@ -18,7 +18,7 @@ nav ul, footer ul {
     list-style: none;
     font-weight: bold;
     text-align: center;
-    background-color: #0d0d0e;
+    background-color: #040c13;
 }
 nav ul li, footer ul li {
     display: inline;
@@ -40,14 +40,14 @@ a:hover {
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #161616;
+  color: #040c13;
   font-family: 'Sans Serif', cursive;
 }
 
 .ctrL, .ctrR {
   background-color: transparent;
-  color: #161616;
-  border: 2px solid #0d0d0e;
+  color: #040c13;
+  border: 2px solid #040c13;
   padding: 15px 32px;
   text-align: center;
   font-size: 16px;
@@ -59,14 +59,14 @@ a:hover {
 }
 
 .ctrL:hover, .ctrR:hover {
-  background-color: #0d0d0e;
+  background-color: #040c13;
   color: #dc8f87;
 }
 
 .portfolio {
   background-color: transparent;
-  color: #b6c7bf;
-  border: 2px solid #b6c7bf;
+  color: #8ca097;
+  border: 2px solid #8ca097;
   padding: 15px 32px;
   font-size: 16px;
   margin: 4px 2px;
@@ -78,7 +78,7 @@ a:hover {
   margin:0 auto;
 }
 .portfolio:hover {
-  background-color: #b6c7bf;
+  background-color: #8ca097;
   color: #0d0d0e;
 }
 #wrapper {
@@ -99,7 +99,7 @@ footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
     text-align: center;
-    background-color: #0d0d0e;
+    background-color: #040c13;
 }
 
 ul.posts {
