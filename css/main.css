@@ -55,7 +55,8 @@ a:hover {
   cursor: pointer;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
-  font-family: 'Exo 2'
+  font-family: 'Exo 2';
+  border-radius:4px;
 }
 
 .ctrL:hover, .ctrR:hover {
@@ -76,6 +77,7 @@ a:hover {
   font-family: 'Exo 2';
   display:block;
   margin:0 auto;
+  border-radius:4px;
 }
 .portfolio:hover {
   background-color: #8ca097;
@@ -160,7 +162,6 @@ p {
     line-height: 1.4em;
 }
 footer {
-    border-top: 1px solid #d5d5d5;
     font-size: .8em;
     text-align: center;
     background-color: #040c13;
