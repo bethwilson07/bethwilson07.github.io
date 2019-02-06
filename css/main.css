@@ -66,8 +66,8 @@ a:hover {
 
 .portfolio {
   background-color: transparent;
-  color: #b6c7bf;
-  border: 2px solid #b6c7bf;
+  color: #999;
+  border: 2px solid #999;
   padding: 15px 32px;
   font-size: 16px;
   margin: 4px 2px;
@@ -80,8 +80,8 @@ a:hover {
   border-radius:4px;
 }
 .portfolio:hover {
-  background-color: #b6c7bf;
-  color: #0d0d0e;
+  background-color: #999;
+  color: #040c13e3;
 }
 #wrapper {
   display: flex;
