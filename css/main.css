@@ -66,8 +66,8 @@ a:hover {
 
 .portfolio {
   background-color: transparent;
-  color: #8ca097;
-  border: 2px solid #8ca097;
+  color: #b6c7bf;
+  border: 2px solid #b6c7bf;
   padding: 15px 32px;
   font-size: 16px;
   margin: 4px 2px;
@@ -80,7 +80,7 @@ a:hover {
   border-radius:4px;
 }
 .portfolio:hover {
-  background-color: #8ca097;
+  background-color: #b6c7bf;
   color: #0d0d0e;
 }
 #wrapper {
@@ -91,13 +91,20 @@ a:hover {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-template-columns: repeat(2, auto);
   grid-gap: 1em;
+}
+
+.icon-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(78px, 1fr));
+  grid-gap: 5em;
 }
 
 .project-listing {
   position: relative;
   overflow: hidden;
+  min-width:450px;
 }
 
 .project-title {
