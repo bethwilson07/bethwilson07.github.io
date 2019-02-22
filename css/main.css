@@ -37,7 +37,7 @@ a:hover {
 
 .centered {
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #040c13;
